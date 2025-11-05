@@ -1,0 +1,4 @@
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+h1 { font-size: 2rem; }
+#tagline { opacity: 0.9; }
+/* TODO: rendre le site accessible (contrastes, focus) */

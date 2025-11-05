@@ -1,0 +1,1 @@
+- Notes initiales du projet
