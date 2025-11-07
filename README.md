@@ -36,6 +36,20 @@ https://github.com/ETML-RRY/324_inspection_git.git
 2. Quels sont les **tags** disponibles ? A quoi correspondent-ils ?  
 3. Quelle est la **branche principale** du projet ?
 
+Réponse :
+- git branch -a
+  * main
+  remotes/origin/HEAD -> origin/main  
+  remotes/origin/experiment/dark-mode  
+  remotes/origin/feature/header  
+  remotes/origin/feature/login  
+  remotes/origin/hotfix/typo  
+  remotes/origin/main  
+- git tag  
+  v0.1  
+  v0.2  
+- main
+
 ### Partie 3 — Historique et commits
 
 4. Quel est le message du **premier commit** du projet ?  
@@ -43,6 +57,11 @@ https://github.com/ETML-RRY/324_inspection_git.git
 6. Quel commit a ensuite corrigé cette erreur ?  
 7. Trouvez le commit où le **titre de la page d'accueil** a été corrigé.  
 8. Quel est le message du commit qui a **ajouté le fichier `CHANGELOG.md`** et quelle commande avez-vous utilisé ?
+
+Réponse : 
+- Initial commit: structure HTML/CSS/JS + README + docs
+- bea2d1aeaecd11e9c0af36cf6f052f65e82d36c5
+
 
 ### Partie 4 — Branches et fusions
 
