@@ -61,6 +61,19 @@ Réponse :
 Réponse : 
 - Initial commit: structure HTML/CSS/JS + README + docs
 - bea2d1aeaecd11e9c0af36cf6f052f65e82d36c5
+- ce commit :
+  commit 1b682c91ef14cda333419e2e387a53033ae575a1
+  Author: Romain Rosay <romain.rosay@eduvaud.ch>
+  Date:   Wed Nov 5 22:15:17 2025 +0100
+
+    chore(config): retire la clé API et documente la bonne pratique
+- ce commit : commit 6317c073f7514d580522c90fa1f0f0402066a48f (origin/hotfix/typo)
+  Author: Romain Rosay <romain.rosay@eduvaud.ch>
+  Date:   Wed Nov 5 22:15:21 2025 +0100
+
+    hotfix: corrige la typo 'Wolrd' dans le titre
+-  message : docs: ajoute un changelog de base/ commande : git log
+
 
 
 ### Partie 4 — Branches et fusions
