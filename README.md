@@ -135,6 +135,6 @@ style.css
 15. Pourquoi est-il important de **taguer** des versions dans un projet ?  
 - Pour pouvoir suivre facilement les version du projet
 16. Que peut-on déduire du style de travail de l'équipe à partir de cet historique GIT ?  
-- git flow
+- git flow  
 
 Bonne chance, et surtout... **ne vous perdez pas dans le log !** 😉
