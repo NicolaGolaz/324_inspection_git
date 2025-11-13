@@ -81,6 +81,18 @@ Réponse :
 9. Quelles branches ont été fusionnées dans `main` ?  
 10. Quelle branche **n'a pas été fusionnée** ? Pourquoi, selon vous ? 
 
+Réponse : 
+- git branch -r --merged  
+  origin/HEAD -> origin/main  
+  origin/feature/header  
+  origin/feature/login  
+  origin/hotfix/typo  
+  origin/main  
+-  git branch -r --no-merged  
+  origin/experiment/dark-mode
+
+ 
+
 ### Partie 5 — Analyse du contenu
 
 11. Quelle est la **différence principale** entre les fichiers `index.html` dans les versions `v0.1` et `v0.2` et quelle commande permet de le voir rapidement ?  
