@@ -100,9 +100,41 @@ Réponse :
 13. Dans quelle branche a été ajouté le code pour le **mode sombre** ?  
 14. Quelle bonne pratique de sécurité est évoquée dans les commits du fichier `config.js` ?
 
+Réponse : 
+- git diff v0.1 v0.2 index.html
+```sh  
+diff --git a/index.html b/index.html  
+index 2019876..60ce2f7 100644  
+--- a/index.html  
++++ b/index.html  
+@@ -6,6 +6,7 @@  
+   <link rel="stylesheet" href="style.css">  
+ </head>  
+ <body>  
++  <header><nav><a href="/">Accueil</a> | <a href="#">Contact</a></nav></header>  
+   <!-- NOTE HISTORIQUE: ancien slogan modifié plusieurs fois -->  
+   <h1>Bienvenue sur notre site Wolrd!</h1>  
+   <p id="tagline">Un site tout simple pour apprendre Git.</p>  
+```
+- git ls-tree -r origin/feature/login --name-only
+.gitignore  
+README.md  
+config.js  
+docs/notes.md  
+index.html  
+login.html  
+script.js  
+style.css  
+
+- origin/experiment/dark-mode
+- Il ne faut pas push les secrets en prod, il faut utiliser des variables d'environnement
+
+
 ### Partie 6 — Réflexion
 
 15. Pourquoi est-il important de **taguer** des versions dans un projet ?  
+- Pour pouvoir suivre facilement les version du projet
 16. Que peut-on déduire du style de travail de l'équipe à partir de cet historique GIT ?  
+- git flow
 
 Bonne chance, et surtout... **ne vous perdez pas dans le log !** 😉
